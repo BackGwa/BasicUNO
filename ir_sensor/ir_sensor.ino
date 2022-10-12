@@ -3,8 +3,12 @@
 
 bool isIR(int IR_SENSOR_PIN = IR_SENSOR);
 
+void setup()
+{
+  pinMode(IR_SENSOR, INPUT);
+}
+
 /*
-void setup() {...}
 void loop() {...}
 */
 
