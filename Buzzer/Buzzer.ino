@@ -3,8 +3,12 @@
 
 void Buzzer(int TONE, int TIME);
 
+void setup()
+{
+  pinMode(BUZZER, OUTPUT);
+}
+
 /*
-void setup() {...}
 void loop() {...}
 */
 
